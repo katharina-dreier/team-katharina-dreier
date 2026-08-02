@@ -1,0 +1,17 @@
+{
+  "_id": "ticket:7a6381fc-c433-49a7-aec1-7f149b8d370e",
+  "ticketNumber": "TCK-2026-0012",
+  "title": "Login funktioniert nicht",
+  "description": "Nach Eingabe der Zugangsdaten erscheint eine Fehlermeldung.",
+  "status": "open",
+  "priority": "high",
+  "category": "authentication",
+  "createdByUserId": "user:5a8db681-15f3-4e50-8363-ce49f9983d65",
+  "assignedToUserId": null,
+  "tags": ["login", "frontend"],
+  "createdAt": "2026-08-02T14:00:00.000Z",
+  "updatedAt": "2026-08-02T14:00:00.000Z",
+  "dueAt": null,
+  "resolvedAt": null,
+  "closedAt": null
+}
