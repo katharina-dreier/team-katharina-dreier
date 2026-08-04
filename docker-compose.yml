@@ -38,10 +38,10 @@ services:
         curl -X PUT "http://admin:secret123@couchdb:5984/_global_changes?n=1&q=1"
 
         echo "Creating app database..."
-        curl -X PUT "http://admin:secret123@couchdb:5984/democracy_db?n=1&q=1"
+        curl -X PUT "http://admin:secret123@couchdb:5984/ticket_db?n=1&q=1"
 
         echo "Creating index..."
-        curl -X POST http://admin:secret123@couchdb:5984/democracy_db/_index \
+        curl -X POST http://admin:secret123@couchdb:5984/ticket_db/_index \
           -H "Content-Type: application/json" \
           -d '{"index":{"fields":["type","createdAt"]},"name":"type-createdAt-index","type":"json"}'
 
